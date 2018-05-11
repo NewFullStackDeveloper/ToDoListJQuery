@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.item{
+    display:flex;
+}
+
+
+
+.image {
+ background-image: url('../img/uncheck.svg');
+ background-size:cover;
+ width:35px;
+ height:35px;
+ border:none;
+}
+
+.checked{
+  background-image: url('../img/check.svg');
+  width:35px;
+  height:35px;
+}
+
+.strike-through {
+    text-decoration: line-through;
+  }
